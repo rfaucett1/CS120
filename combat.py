@@ -1,0 +1,9 @@
+import tbc
+
+def main()
+  hero = tbc.Character("Hero", 30, 60, 5, 4)
+  
+  enemy = tbc.Character("Enemy", 40, 40, 5, 2)
+  
+  hero.showStats()
+  enemy.showStats()
